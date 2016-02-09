@@ -1,0 +1,515 @@
+15:05:42 INFO  : Processing command line option -hwspec D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml.
+15:06:20 INFO  : No changes in MSS file content so not generating sources.
+15:07:29 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+15:08:48 INFO  : ps7_init is completed.
+15:08:48 INFO  : ps7_post_config is completed.
+15:08:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:09:58 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+15:12:22 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+15:12:28 INFO  : ps7_init is completed.
+15:12:28 INFO  : ps7_post_config is completed.
+15:12:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:13:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:34:51 INFO  : Processing command line option -hwspec D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml.
+20:35:09 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml.
+20:35:09 INFO  : Copied contents of D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml.
+20:35:12 INFO  : Updating .bit and .bmm files from XPS's export folder.
+20:35:39 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+20:35:39 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+20:35:39 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+20:35:39 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+20:35:54 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c.
+20:36:08 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h.
+20:36:08 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html.
+20:36:08 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl.
+20:36:09 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:36:24 INFO  : 
+20:36:25 INFO  : 
+20:36:26 INFO  : Updating hardware inferred compiler options for HeapSort.
+20:36:26 INFO  : Clearing existing target manager status.
+20:37:47 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:37:57 INFO  : ps7_init is completed.
+20:37:57 INFO  : ps7_post_config is completed.
+20:37:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:41 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:38:47 INFO  : ps7_init is completed.
+20:38:48 INFO  : ps7_post_config is completed.
+20:38:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:43:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:43:57 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:44:03 INFO  : ps7_init is completed.
+20:44:03 INFO  : ps7_post_config is completed.
+20:44:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:44:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:45:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:46:51 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:47:09 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:47:14 INFO  : ps7_init is completed.
+20:47:14 INFO  : ps7_post_config is completed.
+20:47:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:48:14 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:48:37 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:48:46 INFO  : ps7_init is completed.
+20:48:46 INFO  : ps7_post_config is completed.
+20:48:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:49:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:51:23 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:51:40 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:51:46 INFO  : ps7_init is completed.
+20:51:46 INFO  : ps7_post_config is completed.
+20:51:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:52:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:52:26 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unable to Stop Processor. System could be in unknown state.
+                     Please reset the system
+Unknown Error Occured
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:829)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(CPURunSession.java:27)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(TM.java:876)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:496)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:52:51 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:52:58 INFO  : ps7_init is completed.
+20:52:58 INFO  : ps7_post_config is completed.
+20:52:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:53:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:53:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:56:34 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+20:56:46 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+20:56:52 INFO  : ps7_init is completed.
+20:56:52 INFO  : ps7_post_config is completed.
+20:56:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:57:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:00:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:00:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:28:00 INFO  : Project hw_platform_0's source hardware specification located at D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:28:28 INFO  : Copied contents of D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml.
+21:28:57 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+21:28:57 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+21:29:12 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c.
+21:29:12 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h.
+21:29:12 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html.
+21:29:12 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl.
+21:29:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:29:29 INFO  : 
+21:29:30 INFO  : 
+21:29:31 INFO  : Updating hardware inferred compiler options for HeapSort.
+21:29:31 INFO  : Clearing existing target manager status.
+21:30:52 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:31:00 INFO  : ps7_init is completed.
+21:31:00 INFO  : ps7_post_config is completed.
+21:31:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:31:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:31:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:31:59 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:32:06 INFO  : ps7_init is completed.
+21:32:06 INFO  : ps7_post_config is completed.
+21:32:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:32:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:33:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:1134)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:430)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:516)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:35:05 INFO  : ps7_init is completed.
+21:35:05 INFO  : ps7_post_config is completed.
+21:35:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:38:39 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:38:45 INFO  : ps7_init is completed.
+21:38:45 INFO  : ps7_post_config is completed.
+21:38:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:39:48 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:39:54 INFO  : ps7_init is completed.
+21:39:54 INFO  : ps7_post_config is completed.
+21:39:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:40:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:41:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:42:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:43:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:44:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:45:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:45:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:46:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:47:00 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:47:06 INFO  : ps7_init is completed.
+21:47:06 INFO  : ps7_post_config is completed.
+21:47:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:48:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:50:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:52:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:55:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:57:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:57:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:57:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:58:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:21:41 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read(BufferedReader.java:175)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:328)
+	at java.lang.Thread.run(Thread.java:724)
+23:21:41 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+04:57:53 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+04:58:14 INFO  : ps7_init is completed.
+04:58:14 INFO  : ps7_post_config is completed.
+04:58:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:59:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:59:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:00:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:01:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:02:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:04:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:05:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:06:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:07:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:08:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:09:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:10:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:11:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:11:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:12:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:12:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:12:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:14:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:15:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:16:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:17:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:18:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:19:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:19:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:20:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:20:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:21:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:21:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:22:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:22:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:34:31 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+05:34:37 INFO  : ps7_init is completed.
+05:34:37 INFO  : ps7_post_config is completed.
+05:34:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:35:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:36:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:38:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:40:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:43:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:45:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:46:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:48:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:50:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:50:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:51:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:52:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:56:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+06:04:27 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+06:04:36 INFO  : ps7_init is completed.
+06:04:36 INFO  : ps7_post_config is completed.
+06:04:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:04:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+06:16:00 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+06:16:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+06:16:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+07:58:14 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+07:58:20 INFO  : ps7_init is completed.
+07:58:21 INFO  : ps7_post_config is completed.
+07:58:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:00:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:02:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:03:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:07:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:13:06 INFO  : Project hw_platform_0's source hardware specification located at D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:13:07 INFO  : Copied contents of D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml.
+10:13:41 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+10:13:56 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+10:14:11 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c.
+10:14:11 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h.
+10:14:11 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html.
+10:14:11 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl.
+10:14:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:14:27 INFO  : 
+10:14:28 INFO  : 
+10:14:30 INFO  : Updating hardware inferred compiler options for HeapSort.
+10:14:30 INFO  : Clearing existing target manager status.
+10:15:38 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+10:15:48 INFO  : ps7_init is completed.
+10:15:48 INFO  : ps7_post_config is completed.
+10:15:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:21:38 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+10:21:44 INFO  : ps7_init is completed.
+10:21:44 INFO  : ps7_post_config is completed.
+10:21:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:22:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:23:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:26:43 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:26:35 INFO  : Processing command line option -hwspec D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml.
+16:26:52 INFO  : The hardware specification for project 'hw_platform_0' is different from D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml.
+16:26:53 INFO  : Copied contents of D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml.
+16:26:54 INFO  : Updating .bit and .bmm files from XPS's export folder.
+16:27:18 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+16:27:18 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+16:27:18 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+16:27:18 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+16:27:32 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c.
+16:27:32 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h.
+16:27:32 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html.
+16:27:32 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl.
+16:27:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:27:47 INFO  : 
+16:27:48 INFO  : 
+16:27:50 INFO  : Updating hardware inferred compiler options for HeapSort.
+16:27:50 INFO  : Clearing existing target manager status.
+16:28:36 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+16:29:04 INFO  : ps7_init is completed.
+16:29:04 INFO  : ps7_post_config is completed.
+16:29:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:29:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:30:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:30:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:30:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:30:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:31:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:34:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:43:06 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+16:43:11 INFO  : ps7_init is completed.
+16:43:11 INFO  : ps7_post_config is completed.
+16:43:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:44:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:51:39 INFO  : Project hw_platform_0's source hardware specification located at D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:51:39 INFO  : Copied contents of D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml.
+17:52:09 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+17:52:09 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+17:52:23 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c.
+17:52:23 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h.
+17:52:23 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html.
+17:52:23 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl.
+17:52:24 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:52:40 INFO  : 
+17:52:41 INFO  : 
+17:52:43 INFO  : Updating hardware inferred compiler options for HeapSort.
+17:52:43 INFO  : Clearing existing target manager status.
+17:53:45 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+17:53:50 INFO  : ps7_init is completed.
+17:53:51 INFO  : ps7_post_config is completed.
+17:53:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:54:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:57:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:59:56 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+18:00:02 INFO  : ps7_init is completed.
+18:00:02 INFO  : ps7_post_config is completed.
+18:00:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:00:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:01:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:04:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:04:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:04:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:05:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:05:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:05:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:08:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:10:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:11:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:12:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:12:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:14:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:15:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:15:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:56:59 INFO  : Project hw_platform_0's source hardware specification located at D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:56:59 INFO  : Copied contents of D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw/system.xml into \hw_platform_0\system.xml.
+18:57:27 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper.bit into \hw_platform_0\system_wrapper.bit.
+18:57:27 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\system_wrapper_bd.bmm into \hw_platform_0\system_wrapper_bd.bmm.
+18:57:43 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.c into \hw_platform_0\ps7_init.c.
+18:57:43 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.h into \hw_platform_0\ps7_init.h.
+18:57:43 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.html into \hw_platform_0\ps7_init.html.
+18:57:43 INFO  : Copied contents of D:\MySelf\freelancer\11_2015\HeapSort\code\HeapSortAlgorithm\HeapSortAlgorithm.sdk\SDK\SDK_Export\hw\ps7_init.tcl into \hw_platform_0\ps7_init.tcl.
+18:57:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:57:59 INFO  : 
+18:58:00 INFO  : 
+18:58:02 INFO  : Updating hardware inferred compiler options for HeapSort.
+18:58:02 INFO  : Clearing existing target manager status.
+18:58:57 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+18:59:02 INFO  : ps7_init is completed.
+18:59:02 INFO  : ps7_post_config is completed.
+18:59:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:59:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:59:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:00:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:00:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:00:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:02:17 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+19:02:24 INFO  : ps7_init is completed.
+19:02:24 INFO  : ps7_post_config is completed.
+19:02:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:03:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:25:45 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+19:25:51 INFO  : ps7_init is completed.
+19:25:51 INFO  : ps7_post_config is completed.
+19:25:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:26:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:27:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:43:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:48:10 INFO  : FPGA configured successfully with bitstream "D:/MySelf/freelancer/11_2015/HeapSort/code/HeapSortAlgorithm/HeapSortAlgorithm.sdk/SDK/SDK_Export/hw_platform_0/system_wrapper.bit"
+21:48:19 INFO  : ps7_init is completed.
+21:48:19 INFO  : ps7_post_config is completed.
+21:48:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:49:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:50:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:52:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:52:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:01:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:01:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:08:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:09:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:09:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:10:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:10:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:10:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:11:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:13:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:16:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:26:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:30:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:34:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:34:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:34:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:35:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:35:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:38:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:39:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:39:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:41:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:41:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:41:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:42:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:42:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:43:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:44:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:45:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:45:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:47:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:47:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:48:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:10:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

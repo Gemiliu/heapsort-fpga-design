@@ -1,0 +1,6 @@
+15:03:19 **** Incremental Build of configuration Debug for project HeapSort ****
+make all 
+make: Nothing to be done for `all'.
+
+15:03:19 Build Finished (took 180ms)
+
